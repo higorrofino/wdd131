@@ -1,0 +1,39 @@
+header div{
+    padding: 0.5rem  0rem 5rem 0.5rem;
+    background-color: gray;
+    color: white;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 400px
+}
+
+#main{
+    background-color: lightgray;
+    padding: 0.5rem;
+}
+
+#aside{
+    padding: 0.5rem;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
